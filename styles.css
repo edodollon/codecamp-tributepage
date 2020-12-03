@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #cacaca;
+  font-size: 1.7em;
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 700px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1em 0;
+  text-align: center;
+}
+
+#img-div {
+    background-color: #ffffff;
+    margin: 25px;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 40%;
+}
